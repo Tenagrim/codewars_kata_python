@@ -16,3 +16,23 @@ def find_nb(m):
         return (-1)
     else:
         return int(n)
+
+"""
+solution
+import math as math
+ 
+def find_nb(m):
+fuck you stupid kata
+    haha = math.sqrt(m)
+    print m,haha
+    if m%(int(haha)) != 0:
+        return -1
+    i=1
+    n=0
+    while n<=haha:
+        n+=i
+        if n==haha:
+            return i
+        i+=1
+    return -1
+"""
